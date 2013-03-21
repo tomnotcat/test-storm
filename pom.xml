@@ -28,6 +28,13 @@
         </repository>
     </repositories>
     <dependencies>
+      <dependency>
+        <groupId>storm-kafka</groupId>
+        <artifactId>storm-kafka</artifactId>
+        <version>1.0.0</version>
+        <scope>system</scope>
+        <systemPath>/home/tomnotcat/open-source/test-storm/test-storm/storm-kafka-1-SNAPSHOT.jar</systemPath>
+      </dependency>
         <!-- Storm Dependency -->
         <dependency>
             <groupId>storm</groupId>
@@ -36,4 +43,3 @@
         </dependency>
     </dependencies>
 </project>
-
